@@ -1,0 +1,8 @@
+post http://localhost:3000/api/sign-up HTTP/1.1
+content-type: application/json
+
+{
+"username" : "outro",
+"password" : "outrrro",
+"password_repeat" : "outrrro"
+}
